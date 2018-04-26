@@ -1,0 +1,66 @@
+$primary-color: #009688 ;
+
+
+.nav-primary{
+  background-color: $primary-color !important;
+  .navbar-brand{
+    font-size: 30px;
+  }
+}
+.nav-light{
+  background-color: #e4e4e4 !important;
+  .nav-link{
+    color: $primary-color !important;
+  }
+}
+
+.carousel-item{
+  height: 90vh;
+  a:hover{
+    opacity: 0.9;
+  }
+
+}
+
+.carousel-image-1{
+  background: url('../img/img-1.jpg');
+  background-size: cover;
+}
+.carousel-image-2{
+  background: url('../img/img-2.jpg');
+  background-size: cover;
+}
+.carousel-image-3{
+  background: url('../img/img-3.jpg');
+  background-size: cover;
+}
+
+#services{
+  background-color: #e4e4e4  ;
+  h3{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+
+    font-weight: 300;
+    font-style: italic;
+    color: $primary-color !important;
+
+    border-bottom: 1px $primary-color solid;
+  }
+}
+
+#about{
+  background-image: linear-gradient(to right bottom, rgba($primary-color, 0.7), rgba(#019f97, 0.4)), url('../img/img-10.jpg');
+  background-size: cover;
+  .lead{
+    color:#e0e0e0 ;
+  }
+  h1{
+    color: #fff;
+  }
+  #accordion{
+    .fa{
+      color: $primary-color;
+    }
+  }
+}

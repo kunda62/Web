@@ -1,0 +1,46 @@
+.nav-primary {
+  background-color: #009688 !important; }
+  .nav-primary .navbar-brand {
+    font-size: 30px; }
+
+.nav-light {
+  background-color: #e4e4e4 !important; }
+  .nav-light .nav-link {
+    color: #009688 !important; }
+
+.carousel-item {
+  height: 90vh; }
+  .carousel-item a:hover {
+    opacity: 0.9; }
+
+.carousel-image-1 {
+  background: url("../img/img-1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/img-2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/img-3.jpg");
+  background-size: cover; }
+
+#services {
+  background-color: #e4e4e4; }
+  #services h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-style: italic;
+    color: #009688 !important;
+    border-bottom: 1px #009688 solid; }
+
+#about {
+  background-image: linear-gradient(to right bottom, rgba(0, 150, 136, 0.7), rgba(1, 159, 151, 0.4)), url("../img/img-10.jpg");
+  background-size: cover; }
+  #about .lead {
+    color: #e0e0e0; }
+  #about h1 {
+    color: #fff; }
+  #about #accordion .fa {
+    color: #009688; }
